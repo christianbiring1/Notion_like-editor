@@ -1,27 +1,27 @@
-import React, { useRef, useEffect } from 'react';
+import React, { Component } from 'react';
+import uid from './uniqueID';
 
-const EditableElement = (props) => {
-  const { onChange } = props;
-  const element = useRef();
-  let elements = React.Children.toArray(props.children);
-  if (elements.length > 1) {
-    throw Error("Can't have more than one child");
+const initialBlock = { id: uid(), html: "", tag: "p" };
+
+class EditablePage extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { blocks: [initialBlock] };
   }
-  const onMouseUp = () => {
-    const value = element.current?.value || element.current?.innerText;
-    onChange(value);
-  };
-  useEffect(() => {
-    const value = element.current?.value || element.current?.innerText;
-    onChange(value);
-  });
-  elements = React.cloneElement(elements[0], {
-    contentEditable: true,
-    suppressContentEditableWarning: true,
-    ref: element,
-    onKeyUp: onMouseUp
-  });
-  return elements;
-};
 
-export default EditableElement;
+  render() {
+    return (
+      <div className="Page">
+        {this.state.blocks.map((block, key) => {
+          return (
+            <div key={key} id={block.id}>
+              Tag: {block.tag}, Content: {block.html}
+            </div>
+          );
+        })}
+      </div>
+    );
+  }
+}
+
+export default EditablePage;
