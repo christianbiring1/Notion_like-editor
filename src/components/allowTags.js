@@ -3,7 +3,7 @@ export const allowedTags = [
   {
     id: "page-title",
     tag: "h1",
-    label: "Page Title"
+    label: "Heading 1"
   },
   // {
   //   id: "heading",
