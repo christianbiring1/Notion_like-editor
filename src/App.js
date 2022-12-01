@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import './App.css';
 import EditablePage from './components/editableElement'
 
@@ -10,5 +9,3 @@ export default function App() {
     </div>
   );
 }
-
-// export default App;

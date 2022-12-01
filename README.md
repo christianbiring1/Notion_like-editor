@@ -19,9 +19,9 @@
 - `git@github.com:christianbiring1/front-end.git`
 - `cd front-end`
 - `Open in an IDE(VSCode...)`
-- [] `Install the third party library bu running the command`
+- [ ] `Install the third party library bu running the command`
 - `npm install or npm i`
-- [] `Open up the project with the live server by running:`
+- [ ] `Open up the project with the live server by running:`
 - `npm start`
 
 ## Author

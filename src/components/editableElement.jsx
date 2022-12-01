@@ -53,7 +53,7 @@ class EditablePage extends Component {
 
   render() {
     return (
-      <div className="Page">
+      <div className="page">
         {this.state.blocks.map((block, key) => {
           return (
             <EditableBlock
