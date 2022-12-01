@@ -1,10 +1,12 @@
 // import logo from './logo.svg';
 import './App.css';
-import EditableElement from './components/editableElement';
+import EditablePage from './components/editableElement'
+
 
 export default function App() {
   return (
     <div className="container">
+      <EditablePage />
     </div>
   );
 }
