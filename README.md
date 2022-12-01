@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[You can check the live demo of my project here](https://christianbiring1.github.io/Awesome_books/)
+You can check the live demo [here](https://christianbiring1.github.io/Awesome_books/)
 
 ## Set up
 
