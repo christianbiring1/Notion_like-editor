@@ -8,3 +8,14 @@
 .container {
   margin-top: 50px;
 }
+
+.Block {
+  padding: 2px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.Block:focus {
+  outline: 2px solid rgba(0, 0, 255, 0.8);
+  border-radius: 2px;
+}
