@@ -5,19 +5,19 @@ export const allowedTags = [
     tag: "h1",
     label: "Heading 1"
   },
-  // {
-  //   id: "heading",
-  //   tag: "h2",
-  //   label: "Heading"
-  // },
-  // {
-  //   id: "subheading",
-  //   tag: "h3",
-  //   label: "Subheading"
-  // },
-  // {
-  //   id: "paragraph",
-  //   tag: "p",
-  //   label: "Paragraph"
-  // }
+  {
+    id: "heading",
+    tag: "h2",
+    label: "Heading"
+  },
+  {
+    id: "subheading",
+    tag: "h3",
+    label: "Subheading"
+  },
+  {
+    id: "paragraph",
+    tag: "p",
+    label: "Paragraph"
+  }
 ];
