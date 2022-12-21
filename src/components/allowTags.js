@@ -8,12 +8,12 @@ export const allowedTags = [
   {
     id: "heading",
     tag: "h2",
-    label: "Heading"
+    label: "Heading 2"
   },
   {
     id: "subheading",
     tag: "h3",
-    label: "Subheading"
+    label: "Heading 3"
   },
   {
     id: "paragraph",
